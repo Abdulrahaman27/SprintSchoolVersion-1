@@ -215,6 +215,11 @@
             </div>
         </div>
      </div>
+     <!-- Buttons -->
+     <div class="col-xl-6 d-flex justify-content-center gap-3 ms-5">
+        <button class="btn btn-outline-secondary">Save Personal Details</button>
+        <button class="btn btn-outline-secondary">Clear</button>
+     </div>
 </div>
 
 <!-- Content End-->
