@@ -30,7 +30,7 @@
         <!-- switch button -->
         <button type="button" class="col-lg-2 ms-5 mt-5 mb-0 btn btn-rounded btn-dark"><span
             class="btn-icon-start text-dark"><i class="fa fa-plus color-info"></i>
-        </span>Activity Fee (INR)</button>
+        </span>Medical Condition</button>
         <!-- Table -->
         <div class="card-body">
             <div class="table-responsive">
@@ -38,26 +38,20 @@
                     <thead>
                         <tr>
                             <th style="width:80px;"><strong>#</strong></th>
-                            <th><strong>Activity*</strong></th>
-                            <th><strong>TOTAL AMOUNT*</strong></th>
-                            <th><strong>WAIVED AMOUNT*</strong></th>
-                            <th><strong>PAID AMOUNT*</strong></th>
-                            <th><strong>BALANCE AMOUNT*</strong></th>
-                            <th><strong>PAYMENT STATUS*</strong></th>
-                            <th><strong>DUE DATE*</strong></th>
+                            <th><strong>DATE*</strong></th>
+                            <th><strong>CONDITIONS*</strong></th>
+                            <th><strong>DETAILS*</strong></th>
+                            <th><strong>COMMENT*</strong></th>
                             <th><strong>ACTION*</strong></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td><strong>01</strong></td>
-                            <td>Library Fine</td>
-                            <td>20,000</td>
-                            <td>0.00</td>
-                            <td>15,000</td>
-                            <td>5,000</td>
-                            <td>PENDING</td>
-                            <td>2012-09-28</td>
+                            <td>2020-01-03</td>
+                            <td>MALARIA</td>
+                            <td>Treatment going  on</td>
+                            <td></td>
                             <td>
                                 <div class="dropdown">
                                     <button type="button" class="btn btn-dark light sharp" data-bs-toggle="dropdown">
@@ -72,13 +66,10 @@
                         </tr>
                         <tr>
                             <td><strong>02</strong></td>
-                            <td>Computer Training</td>
-                            <td>70,000</td>
-                            <td>0.00</td>
-                            <td>10,000</td>
-                            <td>10,000</td>
-                            <td>PENDING</td>
-                            <td>2012-12-12</td>
+                            <td>2020-01-03</td>
+                            <td>MALARIA</td>
+                            <td>Treatment going  on</td>
+                            <td></td>
                             <td>
                                 <div class="dropdown">
                                     <button type="button" class="btn btn-dark light sharp" data-bs-toggle="dropdown">
@@ -107,7 +98,8 @@
         </div>
         <!-- Last button -->
         <div class="col-xl-6 d-flex justify-content-center gap-3 ms-5">
-        <button class="btn btn-outline-secondary">Payment History</button>
+        <button class="btn btn-outline-secondary">Save</button>
+        <button class="btn btn-outline-danger">Clear</button>
         
      </div>
 
