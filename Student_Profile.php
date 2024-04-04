@@ -13,17 +13,15 @@
             <div class="row ms-2 mb-0">
                 <div class="d-flex gap-2 align-items-center flex-wrap">
                     <button class="btn btn-outline-dark">Profile</button>
-                    <button class="btn btn-outline-dark">Professional Info</button>
-                    <button class="btn btn-outline-dark">Activity Fee</button>
-                    <button class="btn btn-outline-dark">Salary & Performance</button>
+                    <button class="btn btn-outline-dark">Credentials</button>
+                    <button class="btn btn-outline-dark">Academics</button>
                     <button class="btn btn-outline-dark">Behaviour</button>
                     <button class="btn btn-outline-dark">Certificate</button>
+                    <button class="btn btn-outline-dark">Domitory</button>
+                    <button class="btn btn-outline-dark">Fees</button>
                     <button class="btn btn-outline-dark">Medical</button>
                     <button class="btn btn-outline-dark">Discplin & Transfer</button>
                     <button class="btn btn-outline-dark">Transportation</button>
-                    <button class="btn btn-outline-dark">Pay Structure</button>
-                    <button class="btn btn-outline-dark">Teaching Details</button>
-                    <button class="btn btn-outline-dark">Domitory</button>
                 </div>
             </div>
 
