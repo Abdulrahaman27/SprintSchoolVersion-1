@@ -39,7 +39,7 @@
                     <div class="card-body booking-status d-flex justify-content-between align-items-center">
                         <h4 class="card-title">Personal Details</h4>
                         <button type="button" class="btn btn-rounded btn-dark"><span
-                            class="btn-icon-start text-info"><i class="fa fa-plus color-info"></i>
+                            class="btn-icon-start text-dark"><i class="fa fa-plus color-dark"></i>
                         </span>Add</button>
                     </div>
                 </div>
