@@ -3,8 +3,8 @@
     <div class="d-flex gap-2 align-items-center flex-wrap">
         <a href="http://localhost/PHP/SprintSchool/Staff_Proflie.php" class="btn btn-outline-dark">Profile</a>
         <a href="http://localhost/PHP/SprintSchool/staff_Prof_info.php" class="btn btn-outline-dark">Professional Info</a>
-        <a href="http://localhost/PHP/SprintSchool/Staff_Salary_payment.php" class="btn btn-outline-dark">Activity Fee</a>
-        <a href="http://localhost/PHP/SprintSchool/" class="btn btn-outline-dark">Salary & Performance</a>
+        <a href="http://localhost/PHP/SprintSchool/Staff_Activity_Fee.php" class="btn btn-outline-dark">Activity Fee</a>
+        <a href="http://localhost/PHP/SprintSchool/Staff_Salary_payment.php" class="btn btn-outline-dark">Salary & Performance</a>
         <a href="http://localhost/PHP/SprintSchool/" class="btn btn-outline-dark">Behaviour</a>
         <a href="http://localhost/PHP/SprintSchool/Staff_Certificate.php" class="btn btn-outline-dark">Certificate</a>
         <a href="http://localhost/PHP/SprintSchool/Staff_Medical.php" class="btn btn-outline-dark">Medical</a>
