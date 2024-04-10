@@ -11,21 +11,10 @@
 <div class="content-body">
     <div class="d-flex mt-3 justify-content-evenly ms-0">
         <div class="row col-lg-8.5">
-            <!-- Top Buttons -->
-            <div class="row ms-2 mb-0">
-                <div class="d-flex gap-2 align-items-center flex-wrap">
-                    <button class="btn btn-outline-dark">Profile</button>
-                    <button class="btn btn-outline-dark">Credentials</button>
-                    <button class="btn btn-outline-dark">Academics</button>
-                    <button class="btn btn-outline-dark">Behaviour</button>
-                    <button class="btn btn-outline-dark">Certificate</button>
-                    <button class="btn btn-outline-dark">Domitory</button>
-                    <button class="btn btn-outline-dark">Fees</button>
-                    <button class="btn btn-outline-dark">Medical</button>
-                    <button class="btn btn-outline-dark">Discplin & Transfer</button>
-                    <button class="btn btn-outline-dark">Transportation</button>
-                </div>
-            </div>
+            <!-- TopButtonNav Start -->
+            <?php include 'StudentTopButtonNav.php'; ?>
+            <!-- TopButtonNav Ends -->
+            
             <!-- switch button -->
             <button type="button" class="col-lg-2 ms-5 mt-5 mb-0 btn btn-rounded btn-dark"><span
                 class="btn-icon-start text-dark"><i class="fa fa-plus color-info"></i>
