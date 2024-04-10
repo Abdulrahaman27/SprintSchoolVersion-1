@@ -1,7 +1,7 @@
  <!-- Staff Top Button Nav-->
  <div class="row ms-2 mb-0">
     <div class="d-flex gap-2 align-items-center flex-wrap">
-        <a href="http://localhost/PHP/SprintSchool/" class="btn btn-outline-dark">Profile</a>
+        <a href="http://localhost/PHP/SprintSchool/Staff_Proflie.php" class="btn btn-outline-dark">Profile</a>
         <a href="http://localhost/PHP/SprintSchool/staff_Prof_info.php" class="btn btn-outline-dark">Professional Info</a>
         <a href="http://localhost/PHP/SprintSchool/Staff_Salary_payment.php" class="btn btn-outline-dark">Activity Fee</a>
         <a href="http://localhost/PHP/SprintSchool/" class="btn btn-outline-dark">Salary & Performance</a>
