@@ -6,14 +6,13 @@
 
 <!-- Content Start-->
 
-
 <div class="content-body">
     <div class="row">
         <div class="col-xl-12">
             <div class="row ms-2 mb-0">
                 <div class="d-flex gap-2 align-items-center flex-wrap">
-                    <button class="btn btn-outline-dark">Job Opening</button>
-                    <button class="btn btn-outline-dark">Job Seeker List</button>
+                    <a href="Job_Opening.php" class="btn btn-outline-dark">Job Opening</a>
+                    <a href="Job_Seekers.php" class="btn btn-outline-dark">Job Seeker List</a>
                 </div>
             </div>
             <div class="mt-5  d-flex gap-2 align-items-center flex-wrap">
