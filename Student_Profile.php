@@ -16,9 +16,9 @@
             <div>
                 <div class="row mt-4 mb-0 ms-5">
                     <div class="d-flex gap-2 align-items-center flex-wrap">
-                        <button class="btn light btn-dark">Personal Profile</button>
-                        <button class="btn light btn-dark">Family Detaials</button>
-                        <button class="btn light btn-dark">Assigned Assets</button>
+                        <a href="http://localhost/PHP/SprintSchool/Student_Profile.php" class="btn light btn-dark">Personal Profile</a>
+                        <a href="http://localhost/PHP/SprintSchool/Student_Family.php" class="btn light btn-dark">Family Details</a>
+                        <a href="http://localhost/PHP/SprintSchool/Student_Assigned_Assects.php" class="btn light btn-dark">Assigned Assets</a>
                     </div>
                 </div>
                 <div class=" mt-1 mb-0 card col-xl-11 d-flex justify-content-center ms-5 ">
