@@ -7,11 +7,11 @@
 <!-- Content Start-->
 
 
-<div class="content-body">
+<div class="content-body">  
     <div class="row">
         <div class="col-xl-12">
-           <!-- TopButtonNav Start -->
-           <?php include 'StudentTopButtonNav.php'; ?>
+        <!-- TopButtonNav Start -->
+        <?php include 'StudentTopButtonNav.php'; ?>
             <!-- TopButtonNav Ends -->
             
             <div class="mt-5 ms-5 d-flex gap-2 align-items-center flex-wrap">
@@ -67,48 +67,51 @@
                     </div>
                 </div>
             </div>
-        <!-- Contacts Table -->
-        <div class="card-body">
-                <div class="table-responsive">
-                    <table class="table table-responsive-md">
-                        <thead>
-                            <tr>
-                                <th>
-                                    <select id="inputState" class="default-select form-control wide">
-                                        <option selected><strong>Subject*</strong></option>
-                                        <option>Option 1</option>
-                                        <option>Option 2</option>
-                                        <option>Option 3</option>
-                                    </select>
-                                </th>
-                                <th><strong>Assigned Date*</strong></th>
-                                <th><strong>Due Date*</strong></th>
-                                <th><strong>Lesson Name*</strong></th>
-                                <th><strong>Assignment Details*</strong></th>
-                                <th><strong>Attachment*</strong></th>
-                                <th><strong>Action*</strong></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Award</td>
-                                <td>2021-09-09</td>
-                                <td>2021-09-09</td>
-                                <td>Mathematics</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <!-- Contacts Table -->
+            <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-responsive-md">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <select id="inputState" class="default-select form-control wide">
+                                            <option selected><strong>Subject*</strong></option>
+                                            <option>Option 1</option>
+                                            <option>Option 2</option>
+                                            <option>Option 3</option>
+                                        </select>
+                                    </th>
+                                    <th><strong>Assigned Date*</strong></th>
+                                    <th><strong>Due Date*</strong></th>
+                                    <th><strong>Lesson Name*</strong></th>
+                                    <th><strong>Assignment Details*</strong></th>
+                                    <th><strong>Attachment*</strong></th>
+                                    <th><strong>Action*</strong></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Award</td>
+                                    <td>2021-09-09</td>
+                                    <td>2021-09-09</td>
+                                    <td>Mathematics</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-     <!-- Buttons -->
-     <div class="col-xl-6 d-flex justify-content-center gap-3 ms-5">
-        <button class="btn btn-outline-secondary">Save</button>
-        <button class="btn btn-outline-danger">Clear</button>
-     </div>
+        </div>
+        <!-- Buttons -->
+        <div class="col-xl-6 d-flex justify-content-center gap-3 ms-5">
+            <button class="btn btn-outline-secondary">Save</button>
+            <button class="btn btn-outline-danger">Clear</button>
+        </div>
     </div>
+</div>
 
 <!-- Content End-->
 
