@@ -1,5 +1,5 @@
 <!--  Header -->
-<?php include 'Header.php'; ?>
+<?php include '../Student/Header.php'; ?>
 
 <!-- SideBar Section -->
 <?php include 'SideBar.php'; ?>

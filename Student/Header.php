@@ -1,9 +1,9 @@
 <!-- importing config file -->
-<?php include 'config/config.php'; ?>
+<?php include '../config/config.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
- 
+    
 <!-- Mirrored from travl.dexignlab.com/codeigniter/demo/reviews by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2024 15:47:34 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
@@ -24,23 +24,22 @@
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL; ?>public/assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../public/assets/images/favicon.png">
 
 	
-        <link href="<?php echo BASE_URL; ?>public/assets/vendor/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css"/>	
+        <link href="../public/assets/vendor/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css"/>	
 	
-        <link href="<?php echo BASE_URL; ?>public/assets/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css"/>	
+        <link href="../public/assets/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css"/>	
 	
-        <link href="<?php echo BASE_URL; ?>public/assets/vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet" type="text/css"/>		
+        <link href="../public/assets/vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet" type="text/css"/>		
 	
-        <link href="<?php echo BASE_URL; ?>public/assets/css/style.css" rel="stylesheet" type="text/css"/>		
+        <link href="../public/assets/css/style.css" rel="stylesheet" type="text/css"/>		
 
 </head>
 <body>
 
-	<!--*******************
-		Preloader start
-	********************-->
+	<!--******************* Preloader start ********************-->
+
 	<div id="preloader">
 		<div class="lds-ripple">
 			<div></div>
@@ -117,7 +116,7 @@
 							<li class="active dlab-chat-user">
 								<div class="d-flex bd-highlight">
 									<div class="img_cont">
-										<img src="<?php echo BASE_URL; ?>public/assets/images/avatar/1.jpg" class="rounded-circle user_img" alt=""/>
+										<img src="public/assets/images/avatar/1.jpg" class="rounded-circle user_img" alt=""/>
 										<span class="online_icon"></span>
 									</div>
 									<div class="user_info">
@@ -141,7 +140,7 @@
 							<li class="dlab-chat-user">
 								<div class="d-flex bd-highlight">
 									<div class="img_cont">
-										<img src="<?php echo BASE_URL; ?>public/assets/images/avatar/3.jpg" class="rounded-circle user_img" alt=""/>
+										<img src="public/assets/images/avatar/3.jpg" class="rounded-circle user_img" alt=""/>
 										<span class="online_icon"></span>
 									</div>
 									<div class="user_info">
