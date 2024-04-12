@@ -1,8 +1,8 @@
 <!--  Header -->
-<?php include 'Header.php'; ?>
+<?php include '/Header.php'; ?>
 
 <!-- SideBar Section -->
-<?php include 'SideBar.php'; ?>
+<?php include '/SideBar.php'; ?>
 
 <!-- Content Start-->
 
@@ -116,4 +116,4 @@
 <!-- Content End-->
 
 <!-- Footer Section -->
-<?php include 'footer.php'; ?>
+<?php include '/footer.php'; ?>
