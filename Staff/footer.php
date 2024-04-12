@@ -8,18 +8,18 @@
 ***********************************-->        
 		
 	</div>
-			<script src="public/assets/vendor/global/global.min.js"></script>
-			<script src="public/assets/vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+			<script src="<?php echo BASE_URL; ?>public/assets/vendor/global/global.min.js"></script>
+			<script src="<?php echo BASE_URL; ?>public/assets/vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
 		
 
-	        <script src="public/assets/vendor/owl-carousel/owl.carousel.js"></script>
-            <script src="public/assets/vendor/datatables/js/jquery.dataTables.min.js"></script>
-            <script src="public/assets/js/plugins-init/datatables.init.js"></script>
+	        <script src="<?php echo BASE_URL; ?>public/assets/vendor/owl-carousel/owl.carousel.js"></script>
+            <script src="<?php echo BASE_URL; ?>public/assets/vendor/datatables/js/jquery.dataTables.min.js"></script>
+            <script src="<?php echo BASE_URL; ?>public/assets/js/plugins-init/datatables.init.js"></script>
     	
-			<script src="public/assets/js/custom.min.js"></script>
-			<script src="public/assets/js/dlabnav-init.js"></script>
-			<script src="public/assets/js/demo.js"></script>
-			<script src="public/assets/js/styleSwitcher.js"></script>
+			<script src="<?php echo BASE_URL; ?>public/assets/js/custom.min.js"></script>
+			<script src="<?php echo BASE_URL; ?>public/assets/js/dlabnav-init.js"></script>
+			<script src="<?php echo BASE_URL; ?>public/assets/js/demo.js"></script>
+			<script src="<?php echo BASE_URL; ?>public/assets/js/styleSwitcher.js"></script>
 		<script>
 function TravlCarousel()
 	{

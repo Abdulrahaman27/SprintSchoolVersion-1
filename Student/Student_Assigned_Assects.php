@@ -11,14 +11,14 @@
     <div class="row">
         <div class="col-xl-12">
             <!-- TopButtonNav Start -->
-            <?php include 'StaffTopButtonNav.php'; ?>
+            <?php include 'StudentTopButtonNav.php'; ?>
             <!-- TopButtonNav Ends -->
             <div>
                 <div class="row mt-4 mb-0 ms-5">
                     <div class="d-flex gap-2 align-items-center flex-wrap">
-                        <a href="http://localhost/PHP/SprintSchool/Student_Profile.php" class="btn light btn-dark">Personal Profile</a>
-                        <a href="http://localhost/PHP/SprintSchool/Student_Family.php" class="btn light btn-dark">Family Details</a>
-                        <a href="http://localhost/PHP/SprintSchool/Student_Assigned_Assects.php" class="btn light btn-dark">Assigned Assets</a>
+                        <a href="<?php echo STUDENT_URL; ?>Student_Profile.php" class="btn light btn-dark">Personal Profile</a>
+                        <a href="<?php echo STUDENT_URL; ?>Student_Family.php" class="btn light btn-dark">Family Details</a>
+                        <a href="<?php echo STUDENT_URL; ?>Student_Assigned_Assects.php" class="btn light btn-dark">Assigned Assets</a>
                     </div>
                 </div>
                     <h4 class="ms-5 m-3 mb-1"><strong>Issued Assets</strong></h4>

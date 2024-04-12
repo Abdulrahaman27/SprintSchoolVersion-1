@@ -1,5 +1,5 @@
 <!--  Header -->
-<?php include '../Student/Header.php'; ?>
+<?php include 'Header.php'; ?>
 
 <!-- SideBar Section -->
 <?php include 'SideBar.php'; ?>
@@ -16,16 +16,16 @@
             <div>
                 <div class="row mt-4 mb-0 ms-5">
                     <div class="d-flex gap-2 align-items-center flex-wrap">
-                        <a href="http://localhost/PHP/SprintSchool/Student_Profile.php" class="btn light btn-dark">Personal Profile</a>
-                        <a href="http://localhost/PHP/SprintSchool/Student_Family.php" class="btn light btn-dark">Family Details</a>
-                        <a href="http://localhost/PHP/SprintSchool/Student_Assigned_Assects.php" class="btn light btn-dark">Assigned Assets</a>
+                        <a href="<?php echo STUDENT_URL; ?>Student_Profile.php" class="btn light btn-dark">Personal Profile</a>
+                        <a href="<?php echo STUDENT_URL; ?>Student_Family.php" class="btn light btn-dark">Family Details</a>
+                        <a href="<?php echo STUDENT_URL; ?>Student_Assigned_Assects.php" class="btn light btn-dark">Assigned Assets</a>
                     </div>
                 </div>
                 <div class=" mt-1 mb-0 card col-xl-11 d-flex justify-content-center ms-5 ">
                     <div class="card-body booking-status d-flex justify-content-between align-items-center">
                         <h4 class="card-title">Personal Details</h4>
                         <button type="button" class="btn btn-rounded btn-dark"><span
-                            class="btn-icon-start text-info"><i class="fa fa-plus color-info"></i>
+                            class="btn-icon-start text-dark"><i class="fa fa-plus color-dark"></i>
                         </span>Add</button>
                     </div>
                 </div>
