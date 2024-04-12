@@ -1,10 +1,20 @@
 <?php 
 
+// Check if the constants are not already defined before adding them
 // BASE URL
-define("BASE_URL", "http://localhost/PHP/SprintSchool/");
+if (!defined('BASE_URL')) {
+    define('BASE_URL', 'http://localhost/PHP/SprintSchool/');
+}
 
 // Staff URL
-define("STAFF_URL", BASE_URL."Staff/");
+if (!defined('STAFF_URL')) {
+    define('STAFF_URL', BASE_URL . 'Staff/');
+}
 
-// Student URL
-define("STUDENT_URL", BASE_URL."Student/");
+//Student URL
+if (!defined('STUDENT_URL')) {
+    define('STUDENT_URL', BASE_URL . 'Student/');
+}
+
+
+

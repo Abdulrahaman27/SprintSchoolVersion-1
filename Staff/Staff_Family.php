@@ -16,9 +16,9 @@
             <div>
                 <div class="row mt-4 mb-0 ms-5">
                     <div class="d-flex gap-2 align-items-center flex-wrap">
-                        <a href="http://localhost/PHP/SprintSchool/Staff_Profile.php" class="btn light btn-dark">Personal Profile</a>
-                        <a href="http://localhost/PHP/SprintSchool/Staff_Family.php" class="btn light btn-dark">Family Details</a>
-                        <a href="http://localhost/PHP/SprintSchool/Staff_Assigned_Assects.php" class="btn light btn-dark">Assigned Assets</a>
+                        <a href="<?php echo STAFF_URL; ?>Staff_Profile.php" class="btn light btn-dark">Personal Profile</a>
+                        <a href="<?php echo STAFF_URL; ?>Staff_Family.php" class="btn light btn-dark">Family Details</a>
+                        <a href="<?php echo STAFF_URL; ?>Staff_Assigned_Assects.php" class="btn light btn-dark">Assigned Assets</a>
                     </div>
                 </div>
                 <div class="mt-2 mb-1 col-xl-11 ms-5 ">

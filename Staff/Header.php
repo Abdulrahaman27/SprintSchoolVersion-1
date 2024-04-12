@@ -1,3 +1,9 @@
+<?php
+ob_start();
+include '../config/config.php';
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     
@@ -22,16 +28,16 @@
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	
-    <link rel="icon" type="image/png" sizes="16x16" href="public/assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL; ?>public/assets/images/favicon.png">
 
 	
-        <link href="public/assets/vendor/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css"/>	
+        <link href="<?php echo BASE_URL; ?>public/assets/vendor/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css"/>	
 	
-        <link href="public/assets/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css"/>	
+        <link href="<?php echo BASE_URL; ?>public/assets/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css"/>	
 	
-        <link href="public/assets/vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet" type="text/css"/>		
+        <link href="<?php echo BASE_URL; ?>public/assets/vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet" type="text/css"/>		
 	
-        <link href="public/assets/css/style.css" rel="stylesheet" type="text/css"/>		
+        <link href="<?php echo BASE_URL; ?>public/assets/css/style.css" rel="stylesheet" type="text/css"/>		
 
 </head>
 <body>
