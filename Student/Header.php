@@ -1,5 +1,9 @@
 <!-- importing config file -->
-<?php include '../config/config.php'; ?>
+<?php
+ob_start();
+include '../config/config.php';
+session_start();
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,16 +28,16 @@
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	
-    <link rel="icon" type="image/png" sizes="16x16" href="../public/assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL; ?>public/assets/images/favicon.png">
 
 	
-        <link href="../public/assets/vendor/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css"/>	
+	<link href="<?php echo BASE_URL; ?>public/assets/vendor/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css"/>	
 	
-        <link href="../public/assets/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css"/>	
-	
-        <link href="../public/assets/vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet" type="text/css"/>		
-	
-        <link href="../public/assets/css/style.css" rel="stylesheet" type="text/css"/>		
+	<link href="<?php echo BASE_URL; ?>public/assets/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css"/>	
+
+	<link href="<?php echo BASE_URL; ?>public/assets/vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet" type="text/css"/>		
+
+	<link href="<?php echo BASE_URL; ?>public/assets/css/style.css" rel="stylesheet" type="text/css"/>			
 
 </head>
 <body>
@@ -46,18 +50,12 @@
 			<div></div>
 		</div>
 	</div>
-	<!--*******************
-		Preloader end
-	********************-->
+	<!--****************** Preloader end	********************-->
 	
-	<!--**********************************
-        Main wrapper start
-    ***********************************-->
+	<!--**********************************   Main wrapper start    ***********************************-->
     <div id="main-wrapper">
 
-	<!--**********************************
-    Nav header start
-***********************************-->
+	<!--********************************** Nav header start ***********************************-->
 <div class="nav-header">
     <a href="index.html" class="brand-logo">
         <svg class="logo-abbr" xmlns="http://www.w3.org/2000/svg" width="47.426" height="56.91" viewBox="0 0 47.426 56.91">
@@ -116,7 +114,7 @@
 							<li class="active dlab-chat-user">
 								<div class="d-flex bd-highlight">
 									<div class="img_cont">
-										<img src="public/assets/images/avatar/1.jpg" class="rounded-circle user_img" alt=""/>
+										<img src="<?php echo BASE_URL; ?>public/assets/images/avatar/1.jpg" class="rounded-circle user_img" alt=""/>
 										<span class="online_icon"></span>
 									</div>
 									<div class="user_info">

@@ -63,7 +63,7 @@
         <div class="card row col-lg-3 me-2">
             <div class="dropdown header-profile2">
                 <div class="header-info2 text-center mt-3">
-                    <img src="public/assets/images/profile/pic1.jpg" alt=""/>
+                    <img src="<?php echo BASE_URL; ?>public/assets/images/profile/pic1.jpg" alt=""/>
                     <div class="sidebar-info">
                         <div class="mt-3">
                             <div class="d-flex m-2">
